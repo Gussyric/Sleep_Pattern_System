@@ -1,0 +1,86 @@
+Investigating the Impact of Sleep Patterns on Heart Rate Variability Using a Basic Sensor System
+
+Project Type: Data Collection & Analysis
+Skill Areas: Sensor Integration, Data Processing, Statistical Analysis, Machine Learning (if applicable)
+Tools & Technologies: Low-cost heart rate sensor (e.g., Pulse Sensor, MAX30102), Python/R for data analysis, Excel/Google Sheets, Arduino/Raspberry Pi (if needed)
+
+1. Introduction
+
+1.1. Problem Statement
+	•	Sleep plays a vital role in overall health and cognitive function.
+	•	Heart Rate Variability (HRV) is a key biomarker for stress, recovery, and overall well-being.
+	•	Investigating how sleep patterns influence HRV can provide insights into sleep quality and overall health.
+
+1.2. Project Objectives
+	•	Collect HRV data using a low-cost heart rate sensor during sleep.
+	•	Analyze variations in HRV across different sleep patterns.
+	•	Correlate HRV data with self-reported sleep quality.
+	•	Introduce students to fundamental concepts in physiological data collection and analysis.
+
+1.3. Research Questions
+	•	How do different sleep durations and patterns affect HRV?
+	•	Can HRV data predict subjective sleep quality?
+	•	Are there identifiable trends between sleep disturbances and HRV fluctuations?
+
+2. Methodology
+
+2.1. Hardware & Sensor Selection
+	•	Selection of an affordable heart rate sensor (e.g., Pulse Sensor, MAX30102).
+	•	Setup and calibration of the sensor with a microcontroller (Arduino, Raspberry Pi).
+	•	Ensuring accuracy by testing against known HRV monitoring devices (if available).
+
+2.2. Data Collection Process
+	•	Participant selection and consent (if applicable).
+	•	Wearing the sensor overnight with minimal discomfort.
+	•	Recording HRV data continuously during sleep.
+	•	Collecting self-reported sleep quality assessments (e.g., Pittsburgh Sleep Quality Index or simple morning survey).
+
+2.3. Data Preprocessing & Cleaning
+	•	Removing noise and artifacts from sensor readings.
+	•	Time-series synchronization of HRV and sleep logs.
+	•	Handling missing or inconsistent data points.
+
+3. Data Analysis & Interpretation
+
+3.1. Feature Extraction
+	•	Calculating HRV metrics (e.g., RMSSD, SDNN, PNN50).
+	•	Identifying trends in HRV changes over different sleep cycles.
+	•	Detecting anomalies in HRV due to potential sleep disturbances.
+
+3.2. Statistical Analysis & Visualization
+	•	Descriptive statistics on HRV and sleep patterns.
+	•	Correlation analysis between HRV variability and reported sleep quality.
+	•	Visualizing HRV trends across different sleep durations.
+
+3.3. Machine Learning (Optional)
+	•	Training basic models (e.g., regression, classification) to predict sleep quality based on HRV features.
+	•	Feature importance analysis to determine key HRV indicators of poor/good sleep.
+
+4. Results & Discussion
+
+4.1. Key Findings
+	•	Summary of HRV trends across different sleep conditions.
+	•	Statistical correlations between HRV metrics and sleep quality scores.
+	•	Limitations of the collected data and analysis.
+
+4.2. Challenges & Limitations
+	•	Sensor accuracy and data noise issues.
+	•	Small sample size and potential biases in self-reported sleep quality.
+	•	Potential external factors affecting HRV (e.g., stress, diet, exercise).
+
+5. Conclusion & Future Work
+
+5.1. Summary of Insights
+	•	Main takeaways on the relationship between sleep and HRV.
+	•	Potential applications for wearable sleep tracking devices.
+
+5.2. Future Research Directions
+	•	Expanding data collection with more participants.
+	•	Using advanced HRV sensors for higher accuracy.
+	•	Incorporating sleep stage detection to refine analysis.
+
+6. Deliverables
+	•	Final Report: Summarizing methodology, findings, and conclusions.
+	•	Data Visualizations: Graphs and charts showing HRV trends.
+	•	Presentation: Summary of the project for a class or research event.
+
